@@ -10,6 +10,11 @@ def introduction_with_language_option(name, language = "Ruby")
   puts "Hi, my name is #{name}. and i am learing to program in #{language}"
 end 
 
+introduction("Josh")
+introduction_with_language("Dan", "Ember.js")
+introduction_with_language_option("Edwin", "Python")
+
+
 
 
 
